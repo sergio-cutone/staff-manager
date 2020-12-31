@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ #TB_ajaxContent {
+ 	max-width:100% !important;
+ 	padding:0;
+ }
+
+ #sortable li {
+ 	padding:10px;
+ }
+
+ .wp-admin-container {
+ 	padding: 0 20px 0 0;
+ }
+
+ .wp-admin-container h2, .wp-admin-container h3 {
+ 	color: #0073aa;
+ }
+
+ .wp-admin-container .section {
+ 	padding:10px; background:#FFF; border:1px solid #CCC; border-radius:6px; margin:20px 0;
+ }
+
+ul#sortable.wprem-staff-sort {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul#sortable.wprem-staff-sort li {
+    flex-grow: 1;
+    flex: 1;
+	max-width: 10%;
+    flex: 10%;
+}
